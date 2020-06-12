@@ -126,7 +126,6 @@ public class ChatActivity extends AppCompatActivity {
                     }
                 }
 
-                // TODO: 12/09/18 Change it to recyclerview
                 mAdapter = new ChatDetailsListAdapter(ChatActivity.this, items);
                 listview.setAdapter(mAdapter);
                 listview.requestFocus();
